@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "what pin would you like to use?"
 read pin
 printf "$pin" > /sys/class/gpio/export    #writes pin number to export
